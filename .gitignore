@@ -1,0 +1,11 @@
+/Reports
+/test-output
+/test-output/AutomationSuite
+/test-output/Default suite
+/test-output/junitreports
+/test-output/old
+/ *.html
+/*.log
+/.Reports
+/target/surefire-reports
+/target

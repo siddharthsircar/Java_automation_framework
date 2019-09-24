@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="EWAAutomationSuite">
+	<test name="Android Tests">
+		<parameter name="platform" value="mobile" />
+		<parameter name="os" value="android" />
+		<parameter name="browser" value="chrome" />
+		<!-- <groups>
+			<run>
+				<include name="smoke"></include>
+				<include name="regression"></include>
+			</run>
+		</groups> -->
+		<classes>
+			<!-- <class name="ewa.tests.EWA_1655_LoginTest"></class> -->
+			<class name="ewa.tests.RegistrationTest"></class>
+		</classes>
+	</test>	
+</suite> <!-- AutomationSuite -->

@@ -1,0 +1,8 @@
+unregisteredEmail : unregemail@gmail.com
+invalidPassword : abcd1029
+invalidEmail : generictext
+validLogin:
+  - email : ewaemployee@celsysemail.celsyswtc.in
+    password : Cel@123
+
+unregistered_user_msg :  
